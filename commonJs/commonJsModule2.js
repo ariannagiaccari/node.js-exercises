@@ -1,3 +1,3 @@
-const sum = require('./3-create_use_commonJs_module');
+const sum = require('.commonJsModule1');
 
 sum(4, 5);
