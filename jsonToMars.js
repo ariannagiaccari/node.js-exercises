@@ -7,6 +7,9 @@ const server = createServer((request, response) => {
 
     response.setHeader('Content-Type', 'text/html');
 
+    const jsonResponseBody = JSON.stringify({ location: 'Mars' });
+
+    response.end(jsonResponseBody)
 });
 
 server.listen(3001, () => {
